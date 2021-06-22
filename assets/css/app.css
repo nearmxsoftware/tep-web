@@ -10793,7 +10793,7 @@ input[data-switch="dark"]:checked + label {
     padding: 80px 0 120px 0; 
     margin-top: -140px;
     z-index: -1;
-    background-image: url("../images/banner/tep-autobuses.png") ;
+    background-image: url("../images/banner/tep-autobuses.jpg") ;
     background-size: cover;
     height: 100vh;
 }
