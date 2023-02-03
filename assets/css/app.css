@@ -3577,6 +3577,7 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
+  z-index:  2;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10792,7 +10793,7 @@ input[data-switch="dark"]:checked + label {
     position: relative;
     padding: 80px 0 120px 0; 
     margin-top: -140px;
-    z-index: -1;
+    z-index: 1;
     background-image: url("../images/banner/tep-autobuses.jpg") ;
     background-size: cover;
     height: 100vh;
@@ -10803,6 +10804,11 @@ input[data-switch="dark"]:checked + label {
   .hero-section > .container {
       margin-top: 10%;
   } 
+
+#inicio > .container {
+  position:  relative;
+  z-index:  2;
+}
 
 body.authentication-bg {
   background-image: url("../images/bg-pattern-light.svg");
